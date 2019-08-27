@@ -6,7 +6,7 @@ RELEASE_TAG=$2
 
 if [ -z "$TARGET_PATH" ]; then
     TARGET_PATH="${GITHUB_WORKSPACE}"
-fi
+if
 
 mkdir -p $TARGET_PATH
 cd $TARGET_PATH
