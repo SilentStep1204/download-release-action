@@ -4,9 +4,9 @@ set -e
 RELEASE_REPOSITORY=$1
 RELEASE_TAG=$2
 
-if [ -z "$TARGET_PATH" ]; then
+ [ -z "$TARGET_PATH" ]
     TARGET_PATH="${GITHUB_WORKSPACE}"
-if
+
 
 mkdir -p $TARGET_PATH
 cd $TARGET_PATH
